@@ -50,6 +50,7 @@ return (
               <div className="card-body">
                 <h5 className="card-title">{ele.title}</h5>
                 <p className="card-text">{ele.description}</p>
+                <p className="card-text"> Price: ${ele.price}</p>
                 <p className="card-text">Discount: {ele.discountPercentage}%</p>
                 <p className="card-text">Brand: {ele.brand}</p>
                 <p className="card-text">Category: {ele.category}</p>
